@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Practica 11</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block">NoticiasHoy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                  <a class="nav-link" href="/world.html" >Mundo</a>
+                  <a class="nav-link" href="/sports.html">Deportes</a>
+                  <a class="nav-link" href="/entertaiment.html">Entretenimiento</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="featured-news">
+            <h2>Noticias Destacadas</h2>
+
+            <div class="SliderContainer">
+                <div id="carouselExampleCaptions" class="carousel slide align-items-center">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Noticia1.png" class="d-block w-100" alt="Destacada">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ver la noticia completa</h5>
+                                <a
+                                    href="#NoticiaDestacada">Continua
+                                    leyendo.</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Noticia2.png" class="d-block w-100" alt="Mundo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ver la noticia completa</h5>
+                                <a href="/world.html">Continua leyendo.</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Noticia3.png" class="d-block w-100" alt="Deportes">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ver la noticia completa</h5>
+                                <a href="sports.html">Continua leyendo.</a>
+                            </div>
+                        </div>
+                        <!-- Nuevo Slider 4 -->
+                        <div class="carousel-item">
+                            <img src="img/Noticia4.png" class="d-block w-100" alt="Entretenimiento">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ver la noticia completa</h5>
+                                <a href="entertaiment.html">Continua leyendo.</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <article class="news-item">
+
+                <h1>Ley 73 y 97 del IMSS: Estos son los años mínimos para pensionarte en 2025</h1>
+                <br>
+                <div class="news-item__1">
+                    <div class="card">
+                        <img src="img/Noticia1-1.avif" class="card-img-top" alt="Pension Mexicana">
+                        <div class="card-body">
+                            <p>En el caso de los afiliados registrados bajo la Ley del Seguro Social de 1997, el mínimo
+                                de
+                                semanas cotizadas ha aumentado gradualmente, hasta el 2024 se requerían 825 semanas, sin
+                                embargo, a partir de 2025, el requisito será de 850 semanas, lo que equivale a 16 años y
+                                4
+                                meses cotizando, considerando que un año tiene 52 semanas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item__2">
+                    <p>Por otro lado, los trabajadores registrados bajo la Ley del Seguro Social de 1973 necesitan un
+                        mínimo de 500 semanas cotizadas, lo que equivale a nueve años y ocho meses de cotización. Este
+                        régimen aplica únicamente para quienes comenzaron a cotizar antes del 1 de julio de 1997.</p>
+                    <p>¿Cómo iniciar el trámite de pensión?
+                        Para iniciar el trámite, los interesados deben acudir a la Unidad Médica Familiar (UMF)
+                        correspondiente al IMSS, llevando la documentación requerida. Este procedimiento es fundamental
+                        para garantizar que los beneficios se otorguen sin contratiempos.
+
+                        Los requisitos para pensionarse en 2025 reflejan las diferencias entre los regímenes de la Ley
+                        97 y la Ley 73. Mientras que el primero requiere un mayor tiempo de cotización (850 semanas), el
+                        segundo permite acceder con menos semanas (500). Estos cambios subrayan la importancia de
+                        planificar la jubilación, ya que una pensión adecuada garantiza estabilidad financiera en la
+                        tercera edad.</p>
+                    <p>En 2025, los pensionados del IMSS e ISSSTE verán incrementadas sus pensiones, ajustadas conforme
+                        al Índice Nacional de Precios al Consumidor (INPC) para preservar su poder adquisitivo, según
+                        una decisión de la Suprema Corte de Justicia de la Nación (SCJN). Esta medida reemplaza la
+                        anterior, que vinculaba las actualizaciones al salario mínimo, buscando evitar pérdidas reales
+                        frente a la inflación.
+
+                        Detalles del aumento para 2025:
+                        Base del aumento: Las pensiones se actualizarán con base en la inflación, medida por el INPC,
+                        garantizando que los ingresos de los pensionados no pierdan valor frente a los costos crecientes
+                        de vida.
+                        Cambio significativo: Anteriormente, las pensiones se ajustaban según el aumento del salario
+                        mínimo, lo que no siempre reflejaba cambios en el costo de vida.
+                        Impacto del salario mínimo: Con el aumento del salario mínimo anunciado por la presidenta
+                        Claudia Sheinbaum, se espera que el poder adquisitivo de las pensiones equivalga a 2.5 canastas
+                        básicas, un notable incremento desde la actual proporción de 1.6.
+                        Inflación y pensiones: Con la inflación de octubre en 4.76%, se anticipa un incremento similar
+                        en las pensiones para el final del año, lo que significa que un pensionado con un ingreso
+                        mensual de 10,000 pesos recibiría aproximadamente 476 pesos adicionales mensuales.</p>
+                </div>
+
+
+                <a href="#read-more" class="read-more">Leer más</a>
+
+                
+            </article>
+        </section>
+        <div class="accordion" >
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Fuente:
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <a href="https://www.msn.com/es-mx/dinero/noticias/ley-73-y-97-del-imss-estos-son-los-a%C3%B1os-m%C3%ADnimos-para-pensionarte-en-2025/ar-AA1uRE38?ocid=msedgntp&pc=U531&cvid=30493dcaf48d40c78a0c57b47cddd52e&ei=30">Historia de Aline Ruz Sosa </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 NoticiasHoy. Todos los derechos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#terms">Términos de Uso</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
